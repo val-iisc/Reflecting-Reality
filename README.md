@@ -30,7 +30,7 @@
 <img src='https://img.shields.io/badge/arxiv-Reflecting Reality-red' alt='Paper PDF'></a>
 <a href="https://val.cds.iisc.ac.in/reflecting-reality.github.io/">
 <img src='https://img.shields.io/badge/Project-Website-green' alt='Project Page'></a>
-
+<br>
 <img src='assets/teaser.jpg' alt='Teaser Image'  height='50%' width='50%'>
 
 </div>
