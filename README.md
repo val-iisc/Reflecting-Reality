@@ -30,15 +30,17 @@
 <img src='https://img.shields.io/badge/arxiv-Reflecting Reality-red' alt='Paper PDF'></a>
 <a href="https://val.cds.iisc.ac.in/reflecting-reality.github.io/">
 <img src='https://img.shields.io/badge/Project-Website-green' alt='Project Page'></a>
+<a href="https://huggingface.co/datasets/cs-mshah/SynMirror">
+<img src='https://img.shields.io/badge/Dataset-HuggingFace-blue' alt='Dataset'></a>
 <br>
 <img src='assets/teaser.jpg' alt='Teaser Image'  height='50%' width='50%'>
 
 </div>
 
 ## 🗓️ TODO
-- [ ] Release the dataset
 - [ ] Release the training, inference and evaluation codes
 - [ ] Release the checkpoints
+- [X] [22/10/2024] 🔥 Release the [dataset](https://huggingface.co/datasets/cs-mshah/SynMirror)
 - [X] [24/9/2024] 🔥 Release the [paper](https://arxiv.org/abs/2409.14677) and [project page](https://val.cds.iisc.ac.in/reflecting-reality.github.io/)
 
 ## 📖 Abstract
