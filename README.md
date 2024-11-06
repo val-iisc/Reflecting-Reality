@@ -1,6 +1,7 @@
 <div align="center">
 
 <h1>Reflecting Reality: Enabling Diffusion Models to Produce Faithful Mirror Reflections</h1>
+<h1>3DV 2025</h1>
 
 <p align="center">
     <a href="https://www.linkedin.com/in/ankit-dhiman-46109a174/" target="_blank"><strong>Ankit Dhiman</strong></a> <sup>1,2<b>*</b></sup>
