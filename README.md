@@ -39,7 +39,8 @@
 </div>
 
 ## 🗓️ TODO
-- [ ] Release the training, inference and evaluation codes
+- [X] [4/1/2025] 🔥 Release the training, inference and evaluation codes
+- [ ] Release the dataset generation code
 - [ ] Release the checkpoints
 - [X] [22/10/2024] 🔥 Release the [dataset](https://huggingface.co/datasets/cs-mshah/SynMirror)
 - [X] [24/9/2024] 🔥 Release the [paper](https://arxiv.org/abs/2409.14677) and [project page](https://val.cds.iisc.ac.in/reflecting-reality.github.io/)
@@ -48,16 +49,23 @@
 
 We tackle the problem of generating highly realistic and plausible mirror reflections using diffusion-based generative models. We formulate this problem as an image inpainting task, allowing for more user control over the placement of mirrors during the generation process. To enable this, we create **SynMirror**, a large-scale dataset of diverse synthetic scenes with objects placed in front of mirrors. **SynMirror** contains around $198K$ samples rendered from $66K$ unique 3D objects, along with their associated depth maps, normal maps and instance-wise segmentation masks, to capture relevant geometric properties of the scene. Using this dataset, we propose a novel depth-conditioned inpainting method called **MirrorFusion**, which generates high-quality geometrically consistent and photo-realistic mirror reflections given an input image and a mask depicting the mirror region. **MirrorFusion** outperforms state-of-the-art methods on **SynMirror**, as demonstrated by extensive quantitative and qualitative analysis. To the best of our knowledge, we are the first to successfully tackle the challenging problem of generating controlled and faithful mirror reflections of an object in a scene using diffusion based models. **SynMirror** and **MirrorFusion** open up new avenues for image editing and augmented reality applications for practitioners and researchers alike.
 
+## Structure
+
+```
+BrushNet/ -> contains the code used for training and evaluating MirrorFusion. Check the README.
+```
+
 ## 🤝🏼 Cite Us
 
 ```
-@article{Dhiman2024Sep,
-	author = {Dhiman, Ankit and Shah, Manan and Parihar, Rishubh and Bhalgat, Yash and Boregowda, Lokesh R. and Babu, R. Venkatesh},
-	title = {{Reflecting Reality: Enabling Diffusion Models to Produce Faithful Mirror Reflections}},
-	journal = {arXiv},
-	year = {2024},
-	month = sep,
-	eprint = {2409.14677},
-	doi = {10.48550/arXiv.2409.14677}
+@inproceedings{reflecting,
+  title   = {Reflecting Reality: Enabling Diffusion Models to Produce Faithful Mirror Reflections},
+  author  = {Ankit Dhiman* and Manan Shah* and Rishubh Parihar and Yash Bhalgat and Lokesh R Boregowda and R Venkatesh Babu},
+  year    = {2025},
+  booktitle = {3DV}
 }
 ```
+
+## 💖 Acknowledgements
+
+Our code is built on top of [BrushNet](https://github.com/TencentARC/BrushNet), [diffusers](https://github.com/huggingface/diffusers) and [BlenderProc](https://github.com/DLR-RM/BlenderProc). We would like to thank all the contributors of these projects. We would also like to thank [Om Rastogi](https://github.com/omrastogi) for setting up the SAM codebase and adapting it for our use to compute the IoU metrics.
