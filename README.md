@@ -52,7 +52,7 @@ We tackle the problem of generating highly realistic and plausible mirror reflec
 ## Structure
 
 ```
-BrushNet/ -> contains the code used for training and evaluating MirrorFusion. Check the README.
+MirrorFusion/ -> contains the code used for training and evaluating MirrorFusion. Check the README.
 ```
 
 ## 🤝🏼 Cite Us

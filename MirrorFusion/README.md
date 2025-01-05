@@ -1,4 +1,4 @@
-# BrushNet
+# MirrorFusion
 
 This folder contains the modifications for `MirrorFusion` built on top of the paper "BrushNet: A Plug-and-Play Image Inpainting Model with Decomposed Dual-Branch Diffusion"
 
@@ -6,7 +6,7 @@ This folder contains the modifications for `MirrorFusion` built on top of the pa
 **📖 Table of Contents**
 
 
-- [BrushNet](#brushnet)
+- [MirrorFusion](#mirrorfusion)
   - [🚀 Getting Started](#-getting-started)
     - [Environment Requirement 🌍](#environment-requirement-)
     - [Data Download ⬇️](#data-download-️)
@@ -21,15 +21,15 @@ This folder contains the modifications for `MirrorFusion` built on top of the pa
 
 ### Environment Requirement 🌍
 
-BrushNet has been implemented and tested on Pytorch 2.3 on CUDA 12.1 with python 3.11.
+MirrorFusion has been implemented and tested on Pytorch 2.3 on CUDA 12.1 with python 3.11.
 
 We recommend you first use `conda` to create virtual environment, and install `pytorch` following [official instructions](https://pytorch.org/). For example:
 
 
 We use pytorch 2.3 with CUDA 12.1 compute platform.
 ```
-conda create -n brushnet python=3.11 -y
-conda activate brushnet
+conda create -n mirror python=3.11 -y
+conda activate mirror
 conda install pytorch==2.3.0 torchvision==0.18.0
 ```
 
@@ -62,7 +62,7 @@ pip install \
 You can download the [SynMirror](https://huggingface.co/datasets/cs-mshah/SynMirror) dataset which is used for training and testing MirrorFusion. By downloading the data, you are agreeing to the terms and conditions of the license. The data structure should be like:
 
 ```
-BrushNet/
+MirrorFusion/
     data/
         blenderproc/
             hf-objaverse-v3/
