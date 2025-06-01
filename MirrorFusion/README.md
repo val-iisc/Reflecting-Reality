@@ -225,7 +225,7 @@ fiftyone app connect --destination <user>@<ip> --port 5151 --local-port 5151
 
 ## 💾 Checkpoint Details
 
-The following table summarizes the key checkpoints mentioned in the project, along with their local paths and descriptions. Please note that the "Link" column refers to the **local path within the project directory** where these checkpoints are expected to be found after training, as no external download links are provided in this README.
+The following table summarizes the key checkpoints mentioned in the project, along with their links and descriptions.
 
 | Checkpoint Name                                  | Link                                                                  | Description                                                                                                                                                                                                                                                                                                                         |
 | :----------------------------------------------- | :----------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

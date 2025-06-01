@@ -41,7 +41,7 @@
 ## 🗓️ TODO
 - [X] [4/1/2025] 🔥 Release the training, inference and evaluation codes
 - [ ] Release the dataset generation code
-- [ ] Release the checkpoints
+- [x] [02/06/2025] Release the [checkpoints](https://github.com/val-iisc/Reflecting-Reality/tree/add_ckpt_details/MirrorFusion#-checkpoint-details)
 - [X] [22/10/2024] 🔥 Release the [dataset](https://huggingface.co/datasets/cs-mshah/SynMirror)
 - [X] [24/9/2024] 🔥 Release the [paper](https://arxiv.org/abs/2409.14677) and [project page](https://val.cds.iisc.ac.in/reflecting-reality.github.io/)
 
